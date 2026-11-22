@@ -1,0 +1,6 @@
+# Line endings are fixed so scripts work after checkout on any OS
+* text=auto
+*.sh  text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.jar binary

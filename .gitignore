@@ -1,0 +1,24 @@
+# --- build output (Maven build directory is build/, see pom.xml) ---
+build/
+target/
+dist/
+*.class
+*.jar
+*.log
+
+# --- IDE / OS ---
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# --- secrets and local settings: never commit ---
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.jks
+settings-local.xml
